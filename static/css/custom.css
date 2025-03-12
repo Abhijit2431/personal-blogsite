@@ -251,7 +251,11 @@
     box-shadow: 0 8px 16px var(--shadow);
     transition: all 0.3s ease;
   }
-  
+
+  ul > li {
+    list-style: none;
+  }
+
   .beyond-the-screen:hover {
     transform: translateY(-5px);
     box-shadow: 0 16px 32px var(--shadow);
